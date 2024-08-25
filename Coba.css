@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.produk-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.produk-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border: 5vh solid #ddd;
+    width: 30vh;
+    height: 20vh;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.li-navbar{
+  outline: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
